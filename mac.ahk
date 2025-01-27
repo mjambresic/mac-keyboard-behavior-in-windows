@@ -107,3 +107,7 @@ Ctrl & Tab::AltTab
     Suspend(false)
     return
 }
+
+; restore support for Ctrl+C (break) and Ctrl+D (EOF)
+!c::Send("^c")
+!d::Send("^d")
