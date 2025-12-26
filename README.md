@@ -79,7 +79,9 @@ This script seeks to implement all shortcuts listed on the official [MacOS keybo
 - [ ] Space bar: Use Quick Look to preview the selected item.
 - [x] Command-Tab: Switch to the next most recently used app among your open apps. 
 - [ ] Command–Grave accent (`): Switch between the windows of the app you're using. (The character on the second key varies by keyboard. It's generally the key above the Tab key and to the left of the number 1.)
-- [x] Shift-Command-5: I recommend [Monosnap](https://monosnap.com/) for screenshots.
+- [x] Shift-Command-3: Take a screenshot of the entire screen.
+- [x] Shift-Command-4: Take a screenshot of a selected portion of the screen.
+- [ ] Shift-Command-5: Take a screenshot or make a screen recording (macOS Mojave or later).
 - [x] Shift-Command-N: Create a new folder in the Finder.
 - [ ] Command-Comma (,): Open preferences for the front app.
 

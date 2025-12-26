@@ -25,6 +25,10 @@ Ctrl & Tab::AltTab
 ; Toggle full screen
 !^f::Send("{F11}")
 
+; Screenshots
++^3::Send("{PrintScreen}")  ; Full screen screenshot
++^4::Send("#+s")  ; Snipping tool
+
 ; Insertion point movement
 ^Left::
 {
