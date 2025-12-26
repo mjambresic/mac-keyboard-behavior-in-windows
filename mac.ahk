@@ -108,6 +108,12 @@ Ctrl & Tab::AltTab
     return
 }
 
+; Finder and system shortcuts
+#^l::Run("shell:downloads")
++^c::Run("shell:MyComputerFolder")
++^o::Run(A_MyDocuments)
++^d::Run(A_Desktop)
+
 ; Trash operations
 ^Backspace::
 {

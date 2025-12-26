@@ -99,16 +99,16 @@ This script seeks to implement all shortcuts listed on the official [MacOS keybo
 - [ ] Command-F: Start a Spotlight search in the Finder window.
 - [ ] Command-I: Show the Get Info window for a selected file.
 - [ ] Command-R: (1) When an alias is selected in the Finder: show the original file for the selected alias. (2) In some apps, such as Calendar or Safari, refresh or reload the page. (3) In Software Update, check for software updates again.
-- [ ] Shift-Command-C: Open the Computer window.
-- [ ] Shift-Command-D: Open the desktop folder.
+- [x] Shift-Command-C: Open the Computer window.
+- [x] Shift-Command-D: Open the desktop folder.
 - [ ] Shift-Command-F: Open the Recents window, showing all of the files you viewed or changed recently.
 - [ ] Shift-Command-G: Open a Go to Folder window.
 - [ ] Shift-Command-H: Open the Home folder of the current macOS user account.
 - [ ] Shift-Command-I: Open iCloud Drive.
 - [ ] Shift-Command-K: Open the Network window.
-- [ ] Option-Command-L: Open the Downloads folder.
+- [x] Option-Command-L: Open the Downloads folder.
 - [x] Shift-Command-N: Create a new folder.
-- [ ] Shift-Command-O: Open the Documents folder.
+- [x] Shift-Command-O: Open the Documents folder.
 - [ ] Shift-Command-P: Show or hide the Preview pane in Finder windows.
 - [ ] Shift-Command-R: Open the AirDrop window.
 - [ ] Shift-Command-T: Show or hide the tab bar in Finder windows. 
