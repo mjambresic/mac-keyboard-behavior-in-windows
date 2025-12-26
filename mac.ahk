@@ -108,6 +108,23 @@ Ctrl & Tab::AltTab
     return
 }
 
+; Trash operations
+^Backspace::
+{
+    Suspend(true)
+    Send("{Del}")
+    Suspend(false)
+    return
+}
++^Backspace::
+{
+    result := MsgBox("Are you sure you want to permanently empty the Recycle Bin?", "Empty Recycle Bin", "YesNo Icon!")
+    if (result = "Yes") {
+        FileRecycleEmpty()
+    }
+    return
+}
+
 ; restore support for Ctrl+C (break) and Ctrl+D (EOF)
 !c::Send("^c")
 !d::Send("^d")

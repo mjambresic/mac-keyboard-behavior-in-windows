@@ -140,8 +140,8 @@ This script seeks to implement all shortcuts listed on the official [MacOS keybo
 - [ ] Command–Down Arrow: Open the selected item.
 - [ ] Right Arrow: Open the selected folder. This works only when in list view.
 - [ ] Left Arrow: Close the selected folder. This works only when in list view.
-- [ ] Command-Delete: Move the selected item to the Trash.
-- [ ] Shift-Command-Delete: Empty the Trash.
+- [x] Command-Delete: Move the selected item to the Trash.
+- [x] Shift-Command-Delete: Empty the Trash.
 - [ ] Option-Shift-Command-Delete: Empty the Trash without confirmation dialog.
 - [ ] Command–Brightness Down: Turn video mirroring on or off when your Mac is connected to more than one display.
 - [ ] Option–Brightness Up: Open Displays preferences. This works with either Brightness key.
