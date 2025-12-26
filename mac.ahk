@@ -121,6 +121,20 @@ Ctrl & Tab::AltTab
 ^[::Send("!{Left}")   ; Go to previous folder
 ^]::Send("!{Right}")  ; Go to next folder
 
+; File Explorer specific shortcuts
+#HotIf WinActive("ahk_class CabinetWClass") or WinActive("ahk_class ExploreWClass")
+^Up::
+{
+    SendInput("{Blind}{Ctrl up}!{Up}")
+    return
+}
+^Down::
+{
+    SendInput("{Blind}{Ctrl up}{Enter}")
+    return
+}
+#HotIf
+
 ; Trash operations
 ^Backspace::
 {
@@ -132,7 +146,8 @@ Ctrl & Tab::AltTab
 +^Backspace::
 {
     result := MsgBox("Are you sure you want to permanently empty the Recycle Bin?", "Empty Recycle Bin", "YesNo Icon!")
-    if (result = "Yes") {
+    if (result = "Yes") 
+    {
         FileRecycleEmpty()
     }
     return
