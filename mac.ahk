@@ -22,6 +22,9 @@ Ctrl & Tab::AltTab
 ; Quit the active app
 ^q::Send("!{f4}")
 
+; Toggle full screen
+!^f::Send("{F11}")
+
 ; Insertion point movement
 ^Left::
 {

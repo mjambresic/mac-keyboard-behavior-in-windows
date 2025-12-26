@@ -75,7 +75,7 @@ This script seeks to implement all shortcuts listed on the official [MacOS keybo
 - [ ] Option-Command-Esc: Force quit an app.
 - [x] Command–Space bar: I recommend PowerToys Run. See [Prerequisites](#prerequisites) section.
 - [ ] Control–Command–Space bar: Show the Character Viewer, from which you can choose emoji and other symbols.
-- [ ] Control-Command-F: Use the app in full screen, if supported by the app.
+- [x] Control-Command-F: Use the app in full screen, if supported by the app.
 - [ ] Space bar: Use Quick Look to preview the selected item.
 - [x] Command-Tab: Switch to the next most recently used app among your open apps. 
 - [ ] Command–Grave accent (`): Switch between the windows of the app you're using. (The character on the second key varies by keyboard. It's generally the key above the Tab key and to the left of the number 1.)
