@@ -133,8 +133,8 @@ This script seeks to implement all shortcuts listed on the official [MacOS keybo
 - [ ] Command-2: View the items in a Finder window as a list.
 - [ ] Command-3: View the items in a Finder window in columns. 
 - [ ] Command-4: View the items in a Finder window in a gallery.
-- [ ] Command–Left Bracket ([): Go to the previous folder.
-- [ ] Command–Right Bracket (]): Go to the next folder.
+- [x] Command–Left Bracket ([): Go to the previous folder.
+- [x] Command–Right Bracket (]): Go to the next folder.
 - [ ] Command–Up Arrow: Open the folder that contains the current folder.
 - [ ] Command–Control–Up Arrow: Open the folder that contains the current folder in a new window.
 - [ ] Command–Down Arrow: Open the selected item.

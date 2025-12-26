@@ -114,6 +114,10 @@ Ctrl & Tab::AltTab
 +^o::Run(A_MyDocuments)
 +^d::Run(A_Desktop)
 
+; Folder navigation
+^[::Send("!{Left}")   ; Go to previous folder
+^]::Send("!{Right}")  ; Go to next folder
+
 ; Trash operations
 ^Backspace::
 {
